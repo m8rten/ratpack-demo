@@ -15,19 +15,26 @@ docker run -d -p 5050:5050 marten/ratpack-demo:v1
 ## Serivce API
 
 Entry point
+```
 http://localhost:5050/
-
+```
 Date for service
+```
 http://localhost:5050/date
-
+```
 The processes run on machine
+```
 http://localhost:5050/ps-ef
-
+```
 Returns the public/file.txt file
+```
 http://localhost:5050/file.txt
-
+```
 To post data to service
+```
 curl -XPOST -H "Content-Type: application/json" -d '{"company":{"name":"cinnober","adress":["ume","stockholm"]}}' localhost:5050/save-to-file
-
+```
 To run arbitrary command on machine
+```
 curl -XPOST -H "Content-Type: application/json" -d '{"command":"ps -ef"}' localhost:5050/run-command
+```
