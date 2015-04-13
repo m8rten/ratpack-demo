@@ -1,0 +1,6 @@
+This is the content of the textfile...
+{"person":{"day":"13th of April","year":2015}}
+{"person":{"day":"13th of April","year":2015}}
+{"person":{"name":"Guillaume","age":33,"pets":["dog","cat"]}}
+{"company":{"name":"cinnober","adress":["umeå","stockholm"]}}
+{"command":"ps -ef"}
