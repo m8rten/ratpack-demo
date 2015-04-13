@@ -5,7 +5,7 @@ Creating a high performance micro service writing a short groovy script. The ser
 Install docker and groovy
 To post data, for example use curl from command line or postman from chrome.
 
-## To run on you local machine
+## To run on your local machine
 groovy ratpack-demo.groovy
 
 ## To build and run Docker container
