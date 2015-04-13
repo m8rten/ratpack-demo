@@ -6,12 +6,14 @@ Install docker and groovy
 To post data, for example use curl from command line or postman from chrome.
 
 ## To run on your local machine
+```
 groovy ratpack-demo.groovy
-
+```
 ## To build and run Docker container
+```
 docker build --tag marten/ratpack-demo:v1 .
 docker run -d -p 5050:5050 marten/ratpack-demo:v1
-
+```
 ## Serivce API
 
 Entry point
